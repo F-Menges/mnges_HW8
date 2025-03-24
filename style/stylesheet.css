@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Eczar:wght@400..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+div {
+  padding: 40px;
+  width: 80%;
+  border: 5px solid #9fae9f;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+body {
+  width: 100%;
+  background-color: #335145;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Archivo Black", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p,
+li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+figcaption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+img {
+  max-height: 500px;
+  border: 2px solid #9fae9f;
+}
+
+table,
+th,
+td {
+  border: 2px solid gray;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 80%;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+td {
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+tr:hover {
+  background-color: gray;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #464646;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111111;
+}
